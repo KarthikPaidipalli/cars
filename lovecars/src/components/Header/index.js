@@ -1,7 +1,6 @@
 
 import "./index.css";
 import { FaCar } from "react-icons/fa";
-import {withRoute} from "react-router-dom"
 
 const Header = () => {
     return (
@@ -14,4 +13,4 @@ const Header = () => {
     );
 };
 
-export default withRoute(Header);
+export default Header;
