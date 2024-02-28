@@ -23,7 +23,10 @@
     transform: scaleX(0); /* Initially no width */
     transition: transform 0.3s ease; /* Add transition effect */
 }
-
+.underscore{
+    text-decoration: none;
+    color: white;
+}
 .headercontainer *:hover::after {
     transform: scaleX(1); /* Increase width on hover */
 }
