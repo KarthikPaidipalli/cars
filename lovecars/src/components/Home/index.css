@@ -1,0 +1,10 @@
+.hometotalcontainer{
+    height: 100vh;
+    background-color: black;
+}
+.homecontainer{
+    background-image: url("https://img.freepik.com/free-vector/lightened-luxury-sedan-car-darkness-with-headlamps-rear-lights-lit-realistic-image-reflection_1284-28803.jpg?t=st=1709224162~exp=1709227762~hmac=260284d96b60b3634db3cb71e0141875d0d5e8c6eab221c792e0aca36f291b02&w=1060");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
