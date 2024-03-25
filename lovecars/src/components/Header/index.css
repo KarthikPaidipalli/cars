@@ -1,6 +1,6 @@
 .headercontainer {
     background-color: rgb(48, 46, 46);
-    height: 100px;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,17 +16,22 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -2px; /* Adjust based on your design */
+    bottom: -2px;
     width: 100%;
-    height: 2px; /* Thickness of the line */
+    height: 2px;
     background-color: rgb(236, 164, 7);
-    transform: scaleX(0); /* Initially no width */
-    transition: transform 0.3s ease; /* Add transition effect */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
 }
 .underscore{
     text-decoration: none;
     color: white;
 }
 .headercontainer *:hover::after {
-    transform: scaleX(1); /* Increase width on hover */
+    transform: scaleX(1);
+}
+
+.liststyle{
+    text-decoration: none;
+    color: white;
 }

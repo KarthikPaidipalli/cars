@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="headercontainer">
             <FaCar size={25} />
-            <Link to="/"><p>Home</p></Link>
-            <p>Description</p>
+            <Link className="liststyle" to="/">Home</Link>
+            <Link className="liststyle" to="/cars">FindCars</Link>
             <a href="https://www.automotiveworld.com/articles/" target="_blank" rel="noopener noreferrer" className="underscore">Articles</a>
         </div>
     );
